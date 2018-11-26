@@ -12,7 +12,7 @@ Requete pour jpeg: curl -X GET -k --header 'Accept: image/jpeg' --output 'C:\Cur
 
 3- Requete Wikipedia :
 
-En utilisant Curl :
+
 curl -X GET --header 'Accept: application/json' 'https://en.wikipedia.org/w/api.php?action=query&format=json&prop=revisions&titles=Bertrand%20Russell&rvprop=ids%7Ctimestamp%7Ccomment%7Cuser&rvstart=2017-08-01T11%3A21%3A55.000Z&rvend=2017-07-29T11%3A21%3A55.000Z' 
 
 
