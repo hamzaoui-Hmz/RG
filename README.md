@@ -11,7 +11,13 @@ Requete pour png  : curl -X GET -k --header 'Accept: image/png' --output 'C:\Cur
 Requete pour jpeg: curl -X GET -k --header 'Accept: image/jpeg' --output 'C:\Curl\y.png'  https://httpbin.org/image
 
 3- Requete Wikipedia :
+
 En utilisant Curl :
 curl -X GET --header 'Accept: application/json' 'https://en.wikipedia.org/w/api.php?action=query&format=json&prop=revisions&titles=Bertrand%20Russell&rvprop=ids%7Ctimestamp%7Ccomment%7Cuser&rvstart=2017-08-01T11%3A21%3A55.000Z&rvend=2017-07-29T11%3A21%3A55.000Z' 
+
+
+
+
+
 Par navigateur :
 https://en.wikipedia.org/w/api.php?action=query&format=json&prop=revisions&titles=Bertrand%20Russell&rvprop=ids%7Ctimestamp%7Ccomment%7Cuser&rvstart=2017-08-01T11%3A21%3A55.000Z&rvend=2017-07-29T11%3A21%3A55.000Z 
